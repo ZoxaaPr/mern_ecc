@@ -31,7 +31,7 @@ app.use(
 //   next();
 // });
 app.use("/api", router);
-app.get("/", "dwdwd");
+
 
 const URI = process.env.MONGODB_URL;
 mongoose.connect(
